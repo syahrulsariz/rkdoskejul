@@ -37,7 +37,7 @@ client.on('ready', () => {
         ];
 
         // Ganti nomor tujuan dengan format internasional
-        const target = "628xxxxxxxxxx@c.us"; // nomor WA tujuan
+        const target = "6289677289925@c.us"; // nomor WA tujuan
 
         for (const pesan of pesanList) {
             await client.sendMessage(target, pesan);
